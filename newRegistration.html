@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    fieldset {
+      width: 400px;              /* length (width) */
+      min-height: 350px;         /* breadth (height) */
+      border: 2px solid #444;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    legend {
+      font-weight: bold;
+      font-size: 18px;
+      padding: 0 10px;
+    }
+
+    input, select, textarea, button {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend>Registration Form</legend>
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter your name"><br>
+
+      <label>Roll No:</label>
+      <input type="text" placeholder="Enter your roll number"><br>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email"><br>
+
+      <label>Contact No:</label>
+      <input type="number" placeholder="Enter your mobile number"><br>
+
+      <label>Gender:</label>
+      <select>
+        <option>Male</option>
+        <option>Female</option>
+      </select><br>
+
+      <label>Choose your course:</label>
+      <select>
+        <option>Course 1</option>
+        <option>Course 2</option>
+        <option>Course 3</option>
+        <option>Course 4</option>
+      </select><br>
+
+      <label>Feedback:</label>
+      <textarea placeholder="Enter your feedback"></textarea><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </fieldset>
+</body>
+</html>
